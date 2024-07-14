@@ -78,3 +78,16 @@ The model is compiled with the Adam optimizer and categorical cross-entropy loss
 - **Data Augmentation**: Using ImageDataGenerator to augment the training images with rotations, shifts, and flips.
 - **Training**: The model is trained for 30 epochs with a batch size of 100.
 
+
+## Results
+
+The model achieves an accuracy of approximately 87.33% on the test set. The performance metrics include accuracy, precision, recall, and F1 score for both the training and testing datasets.
+
+### Training and Validation Accuracy/Loss
+
+```plaintext
+Epoch 30/30
+70/70 [==============================] - 20s 282ms/step - loss: 0.4323 - accuracy: 0.8560 - val_loss: 0.3849 - val_accuracy: 0.8733
+
+
+
