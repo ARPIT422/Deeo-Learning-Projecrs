@@ -48,7 +48,7 @@ The CNN model is built using Keras with TensorFlow as the backend. The architect
 
 ### Detailed Architecture
 
-```plaintext
+plaintext
 Layer (type)                 Output Shape              Param #   
 =================================================================
 conv2d (Conv2D)              (None, 98, 98, 32)        896       
@@ -69,6 +69,8 @@ dropout_2 (Dropout)          (None, 256)               0
 dense_3 (Dense)              (None, 10)                2570      
 =================================================================
 Total params: 694538
+
+
 
 ## Training
 
