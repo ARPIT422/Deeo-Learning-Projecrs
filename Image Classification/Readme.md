@@ -69,3 +69,11 @@ dropout_2 (Dropout)          (None, 256)               0
 dense_3 (Dense)              (None, 10)                2570      
 =================================================================
 Total params: 694538
+
+## Training
+
+The model is compiled with the Adam optimizer and categorical cross-entropy loss. The training process includes:
+
+- **Data Augmentation**: Using ImageDataGenerator to augment the training images with rotations, shifts, and flips.
+- **Training**: The model is trained for 30 epochs with a batch size of 100.
+
