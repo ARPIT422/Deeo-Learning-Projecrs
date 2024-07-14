@@ -6,7 +6,9 @@ This project focuses on the classification of fruit images using a Convolutional
 
 The dataset contains images of 10 different fruits:
 
-- Guava - Banana - Peaches
+- Guava
+- Banana
+- Peaches
 - Mango
 - Raspberries
 - Others...
