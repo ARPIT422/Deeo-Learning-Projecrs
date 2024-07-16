@@ -88,6 +88,8 @@ The model achieves an accuracy of approximately 87.33% on the test set. The perf
 ```plaintext
 Epoch 30/30
 70/70 [==============================] - 20s 282ms/step - loss: 0.4323 - accuracy: 0.8560 - val_loss: 0.3849 - val_accuracy: 0.8733
-
+```
+## Dataset
+**Download the dataset from this link provided**: https://drive.google.com/drive/folders/1U7rePyCk32nsNp7TklLnIcRWC2wW8D0u?usp=drive_link
 
 
